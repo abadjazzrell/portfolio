@@ -87,3 +87,9 @@ body{
 
   } 
 
+  @media (max-width: 575px) {
+    .myCustomImage {
+      background-size: 100% 70%;
+      background-color: black;
+    }
+  }
