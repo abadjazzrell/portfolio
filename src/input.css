@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.title-name {
+    font-size: 1.5rem;
+}
+
+/* // Animate ping */
+@keyframes ping-slow {
+    0% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      opacity: 1;
+    }
+    75%, 100% {
+      -webkit-transform: scale(2);
+      transform: scale(2);
+      opacity: 0;
+    }
+  }
+
+  .animate-ping-slow {
+
+    animation: ping-slow 3s cubic-bezier(0, 0, 0.2, 0) infinite;
+  }
+
+
+/* scroll down */
+.arrow-container {
+  width: 25px;
+  /* cubic-bezier-easing = sine / mehr Beispiele: https://easings.net/ */
+  animation: bounce 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  cursor: pointer;
+  height: 20px;
+}
+
+.arrow-down {
+  height: 6px;
+  background: cyan;
+  transform: rotate(45deg);
+  transform-origin: 0% 0%;
+  border-radius: 5px;
+}
+.arrow-down:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 100%;
+  border-radius: 5px;
+  background: cyan;
+  transform: rotate(-90deg);
+  transform-origin: 0% 100%;
+}
+
+@keyframes bounce {
+50% {
+    transform: translateY(-15px);
+  }
+}
+
+.myCustomImage {
+    background-image: url('../src/image/background.jpg');
+    background-repeat : no-repeat;
+    background-size: 100% 150%;
+    background-position: center;
+    background-attachment: fixed;
+    
+  }
+
+
+  .myCustomImage2 {
+    background-image: url('../src/image/background2.jpg');
+   
+    
+  }
+
+
+   #fullAbout {
+    display: none;
+
+  } 
+

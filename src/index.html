@@ -1,0 +1,613 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- TAILWIND LINK -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@[version]/dist/tailwind.min.css">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- TAILWIND CSS DIST -->
+  <link href="../dist/output.css" rel="stylesheet">
+  <!-- FAVICON -->
+  <link rel="shortcut icon" type="image/x-icon" href="./image/favicon.ico">
+  
+  
+  <title>JazzCodeIT</title>
+</head>
+<body>
+  <div class="myCustomImage h-screen relative w-screen">
+    <!-- Nav goes here-->
+    
+    <div class="p-5 lg:mx-52">
+      
+      <nav class="bg-black mx-auto ">
+        
+        <div class="max-w-5xl mx-auto p-1 " >
+          
+          <div class="flex items-center text-gray-50 justify-between">
+            <!-- Logo -->
+            <div class="flex items-center"><img src="./image/jazzrell-logo.png" alt="" class="h-12 w-12">
+              <a href="#">
+                <h2 class="pl-2 title-name"><span class="text-cyan-500 animate-pulse">&lt;</span>JazzrellAbad<span class="text-cyan-500 animate-pulse">/&gt;</span></h2></div>
+              </a>
+              <div class="md:flex items-center ml-auto hidden">
+                <!-- Primary -->
+                <div class="mr-5 hover:text-cyan-400"><a href="#about">About Me</a></div>
+                <div class="mr-5 hover:text-cyan-400"><a href="#projects">Projects</a></div>
+                <div class="mr-5 hover:text-cyan-400"><a href="#contact">Contact</a></div>
+              </div>
+              <!-- Secondary -->
+              <div class="hidden md:flex"><button class="py-1 px-3 border border-cyan-400 rounded-full hover:bg-cyan-400">Resume</button>
+              </div>
+              
+              <!-- Mobile Button goes here -->
+              <div class="md:hidden flex items-center">
+                <button class="mobile-menu-button">
+                  <svg class="w-6 h-6"xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>
+                </button>
+              </div>
+              
+            </div>
+            
+          </div>
+          
+        </nav>
+        <!-- mobile menu -->
+        <div class="text-white mobile-menu hidden">
+          
+          <a href="#" class="block py-2 px-4 text-sm hover:bg-cyan-400">About Me</a>
+          <a href="#" class="block py-2 px-4 text-sm hover:bg-cyan-400">Projects</a>
+          <a href="#" class="block py-2 px-4 text-sm hover:bg-cyan-400">Contact</a>
+        </div>
+      </div>
+      
+      <div class="text-white text-center md:text-3xl text-2xl absolute inset-x-0 bottom-0 pb-14">
+        <h2>WELCOME TO</h2>
+        <h1 class="md:text-6xl text-4xl flex justify-center"><div class="text-sky-500 animate-ping-slow font-bold">&lt;</div>JazzCodeIT<div class="text-sky-500 animate-ping-slow font-bold">/&gt;</div></h1>
+        
+      </div>
+    </div>
+    <div class="arrow-container items-center justify-center mx-auto pb-14">
+      <div class="arrow-down"></div>
+    </div>
+    
+    
+    <div class="justify-center items-center flex text-3xl text-zinc-600 font-medium self-center mb-[50px]" id ="about">ABOUT ME</div>
+    <div class="bg-white flex flex-col justify-center items-center my-[50px]" id="shortabout">
+      
+      <div class="flex flex-col md:flex-row justify-center items-center w-[80vw] md:w-[90vw] lg:w-[80vw] xl:w-[60vw] space-y-7 md:space-y-0 md:space-x-7" style="opacity: 1;"><img class="md:w-[400px] rounded-md shadow-lg" src="./image/jazzrell-pic.jpg" alt="My Picture">
+        
+        <div><h2 class="text-cyan-500 text-2xl font-medium mb-2">Short Introduction</h2><p class="text-zinc-600 text-md 2xl:w-[800px] font-bold">Hello! My name is JAZZRELL ABAD and I enjoy creating things that live on the internet. My interest in web development started way back a few years ago and one of the Bootcampers of "Zuitt Coding Bootcamp" that taught me a lot about HTML & CSS! and other programming languages</p>
+          <p class="font-bold text-zinc-600 mt-5">
+            My main focus these days is building accessible, inclusive products and digital experiences for my future clients.</p>
+          </div>
+          
+        </div>
+        <button class="bg-black text-white p-2 rounded-md hover:text-cyan-400 duration-300 mt-10 " id="fullIntro"><a href="#about">Full Introduction</a></button>
+      </div>
+      
+      
+      <div class="bg-white flex flex-col justify-center items-center my-[50px]" id="fullAbout">
+        
+        <!-- <h1 class="text-3xl text-zinc-600 font-medium self-center mb-[50px]">About Me</h1> -->
+        
+        <div class="flex flex-col md:flex-row justify-center items-center w-[80vw] md:w-[90vw] lg:w-[80vw] xl:w-[60vw] space-y-7 md:space-y-0 md:space-x-7" style="opacity: 1;">            
+          
+          <div class="flex flex-col justify-between items-center space-y-5 xl:ml-5"><section>
+            
+            <h2 class="text-2xl font-medium"> <span class="text-cyan-500 font-light">Who I Am</span>  <span class="text-zinc-300 text-lg">- background &amp; current</span></h2>
+            
+            <p class="mb-3 text-[15px]">My name is Jazzrell Frian P. Abad, born on February 17, 1991, I am a 32-year-old computer enthusiast with a passion for programming and software engineering. Although I was unable to finish my Bachelor's degree in Computer Science due to financial reasons, I have since gained a solid foundation in the field through my studies and experience.</p>
+            
+            <p class="mb-3 text-[15px]">Before venturing into the tech industry, I started my own computer rental shop, which I successfully ran for six years. I then gained experience in the BPO sector where I worked for three years. However, my love for programming never faded and I pursued it further by enrolling in a coding bootcamp at Zuitt.</p>
+            
+            <p class="mb-3 text-[15px]">In the bootcamp, I learned several programming languages including HTML, CSS, Bootstrap, Tailwind, Node.js, Express, MongoDB, and React, along with knowledge in JavaScript.</p>
+            
+
+            <p class="mb-3 text-[15px]">Since completing the bootcamp, I have been actively learning more about programming and have a positive attitude towards being a part of a team in the IT industry. In my free time, I enjoy playing computer games and browsing the internet to learn new things.</p>
+
+            <p class="text-[15px]">I am driven, passionate, and eager to make a mark in the tech industry. With my skills, experience, and positive attitude, I am sure to be a valuable addition to any team.</p>
+          
+          </section>
+          
+          <section>
+            
+            <h2 class="text-2xl font-medium"> 
+            
+            <span class="text-cyan-500 font-light">Personal Aspect</span> <span class="text-zinc-300 text-lg">- hobbies &amp; interests</span></h2>
+            
+            <p class="mb-3 text-[15px]"><span class="font-medium">In Outdoor -</span>  I have a love for the great outdoors and adventure. I enjoy hitting the trails on my mountain bike and exploring new areas.</p>
+            
+            <p class="mb-3 text-[15px]"><span class="font-medium">In Traveling -</span> Traveling is another passion of mine and I love experiencing new cultures and learning about different ways of life. Music is also a big part of my life, and I enjoy listening to a variety of genres and attending live concerts.</p>
+            
+            <p><span class="font-medium text-[15px]">In Self -</span> I am driven, passionate, and eager to make a mark in the tech industry. With my skills, experience, and positive attitude, I am sure to be a valuable addition to any team. My love for technology, the outdoors, travel, and music make me a well-rounded individual with a passion for learning and growth, eager to tackle new challenges and contribute to the success of a company.</p>
+          
+          </section>
+        </div>
+      </div>
+      
+      <button id="shortIntro" class="bg-black text-white p-2 rounded-md hover:text-cyan-400 duration-300 mt-10"><a href="#about">Short Introduction</a></button>
+    
+    
+    </div>
+      
+      
+      
+      <div class="flex flex-col justify-center items-center">
+        
+        <h1 class="text-zinc-600 text-3xl font-medium self-center mb-4 mt-50">My Tech Stack</h1>
+        
+        <p class="text-gray-600 w-[80vw] md:w-[60vw] text-center text-lg">
+          
+          <span class="text-cyan-500 text-lg">Hovering </span> over the badges brings them to life, but it surely makes you feel dizzy so be careful...</p>
+          
+          <div class="h-auto p-10 bg-[rgb(245,245,245)] grid grid-cols-3 md:grid-cols-5 lg:grid-cols-7 grid-flow-row gap-6 items-center">
+            
+            <div>
+              
+              <div class="group grayscale hover:grayscale-0 duration-[700ms] bg-gray-50 flex flex-col justify-center items-center w-[100px] h-[100px] shadow-lg rounded-full p-6 border border-gray-100">
+                
+                <img class="group-hover:animate-spin" src="./image/Javascript.png"></div>
+              
+              <p class="text-xs text-center text-zinc-400 mt-2">JavaScript</p>
+            
+            </div>
+
+            <div>
+              <div class="group grayscale hover:grayscale-0 duration-[700ms] bg-gray-50 flex flex-col justify-center items-center w-[100px] h-[100px] shadow-lg rounded-full p-6 border border-gray-100">
+                
+                <img class="group-hover:animate-spin" src="./image/Html5.png"></div>
+              
+              <p class="text-xs text-center text-zinc-400 mt-2">HTML 5</p>
+            
+            </div>
+            
+            <div>
+              
+              <div class="group grayscale hover:grayscale-0 duration-[700ms] bg-gray-50 flex flex-col justify-center items-center w-[100px] h-[100px] shadow-lg rounded-full p-6 border border-gray-100">
+                
+                <img class="group-hover:animate-spin" src="./image/css.png">
+              </div>
+              
+              <p class="text-xs text-center text-zinc-400 mt-2">CSS 3</p>
+            </div>
+
+            <div>
+              
+              <div class="group grayscale hover:grayscale-0 duration-[700ms] bg-gray-50 flex flex-col justify-center items-center w-[100px] h-[100px] shadow-lg rounded-full p-6 border border-gray-100"><img class="group-hover:animate-spin" src="./image/react.png">
+              
+              </div>
+              
+              <p class="text-xs text-center text-zinc-400 mt-2">React JS</p>
+            
+            </div>
+
+            <div>
+
+              <div class="group grayscale hover:grayscale-0 duration-[700ms] bg-gray-50 flex flex-col justify-center items-center w-[100px] h-[100px] shadow-lg rounded-full p-6 border border-gray-100"><img class="group-hover:animate-spin" src="./image/tailwind.png">
+              
+              </div>
+              
+              <p class="text-xs text-center text-zinc-400 mt-2">Tailwind CSS</p>
+            
+            </div>
+            
+            <div>
+              
+              <div class="group grayscale hover:grayscale-0 duration-[700ms] bg-gray-50 flex flex-col justify-center items-center w-[100px] h-[100px] shadow-lg rounded-full p-6 border border-gray-100">
+                
+                <img class="group-hover:animate-spin" src="./image/bootstrap.png">
+              
+              </div>
+              
+              <p class="text-xs text-center text-zinc-400 mt-2">Bootstrap 5</p>
+            
+            </div>
+            
+            <div>
+              
+              <div class="group grayscale hover:grayscale-0 duration-[700ms] bg-gray-50 flex flex-col justify-center items-center w-[100px] h-[100px] shadow-lg rounded-full p-6 border border-gray-100">
+                
+                <img class="group-hover:animate-spin" src="./image/vs-code.png">
+              
+              </div>
+              
+              <p class="text-xs text-center text-zinc-400 mt-2">VS Code</p>
+            
+            </div>
+            
+            <div>
+              
+              <div class="group grayscale hover:grayscale-0 duration-[700ms] bg-gray-50 flex flex-col justify-center items-center w-[100px] h-[100px] shadow-lg rounded-full p-6 border border-gray-100">
+                
+                <img class="group-hover:animate-spin" src="./image/node.png">
+              
+              </div>
+              
+              <p class="text-xs text-center text-zinc-400 mt-2">Node JS</p>
+            
+            </div>
+            
+            <div>
+              
+              <div class="group grayscale hover:grayscale-0 duration-[700ms] bg-gray-50 flex flex-col justify-center items-center w-[100px] h-[100px] shadow-lg rounded-full p-6 border border-gray-100">
+                
+                <img class="group-hover:animate-spin" src="./image/npm.png">
+              
+              </div><p class="text-xs text-center text-zinc-400 mt-2">NPM</p>
+            
+            </div>
+            
+            <div>
+              
+              <div class="group grayscale hover:grayscale-0 duration-[700ms] bg-gray-50 flex flex-col justify-center items-center w-[100px] h-[100px] shadow-lg rounded-full p-6 border border-gray-100">
+                
+                <img class="group-hover:animate-spin" src="./image/github.png">
+              
+              </div>
+              
+              <p class="text-xs text-center text-zinc-400 mt-2">Github</p>
+            
+            </div>
+            
+            <div>
+              
+              <div class="group grayscale hover:grayscale-0 duration-[700ms] bg-gray-50 flex flex-col justify-center items-center w-[100px] h-[100px] shadow-lg rounded-full p-6 border border-gray-100">
+                
+                <img class="group-hover:animate-spin" src="./image/firebase.png">
+              
+              </div><p class="text-xs text-center text-zinc-400 mt-2">Firebase</p>
+            
+            </div>
+            
+            <div>
+              
+              <div class="group grayscale hover:grayscale-0 duration-[700ms] bg-gray-50 flex flex-col justify-center items-center w-[100px] h-[100px] shadow-lg rounded-full p-6 border border-gray-100">
+                
+                <img class="group-hover:animate-spin" src="./image/express.png"></div>
+                
+                <p class="text-xs text-center text-zinc-400 mt-2">Express</p>
+              
+              </div>
+              
+              <div>
+                
+                <div class="group grayscale hover:grayscale-0 duration-[700ms] bg-gray-50 flex flex-col justify-center items-center w-[100px] h-[100px] shadow-lg rounded-full p-6 border border-gray-100">
+                  
+                  <img class="group-hover:animate-spin" src="./image/mongodb.png">
+                
+                </div>
+                
+                <p class="text-xs text-center text-zinc-400 mt-2">Mongo DB</p>
+              
+              </div>
+              
+              <div>
+                
+                <div class="group grayscale hover:grayscale-0 duration-[700ms] bg-gray-50 flex flex-col justify-center items-center w-[100px] h-[100px] shadow-lg rounded-full p-6 border border-gray-100">
+                  
+                  <img class="group-hover:animate-spin" src="./image/heroku.png">
+                
+                </div>
+                
+                <p class="text-xs text-center text-zinc-400 mt-2">Heroku</p>
+              
+              </div>
+            
+            </div>
+            
+
+            <p class="w-[90vw] md:w-[90vw] lg:w-[80vw] xl:w-[60vw] text-zinc-500 text-center">As a self-taught programmer, I have gone through several different courses to acquire the necessary knowledge for these technologies. Be it backend-to-frontend or frontend-to-backend, with-framework or without-framework, I have gone through all processes alike to acquire a well-rounded understanding of my toolkit.</p>
+          
+          </div>
+      
+      
+      
+      
+    </div>
+    
+    
+    <div class="mt-10 flex flex-col items-center justify-center h-[40vh] bg-scroll md:bg-fixed bg-center bg-cover myCustomImage2 ">
+      
+      <div class="animated-typing">
+        
+        <h1 class="text-white text-xl md:text-5xl">I am available for<span class="text-cyan-500 text-xl md:text-5xl ml-1 md:ml-2"><span>freelance</span><span class="typed-cursor">|</span></span>work.</h1>
+
+      </div>
+    
+    </div>
+    
+    
+    <div class="flex justify-center items-center py-[50px] bg-gray-200" id="projects">
+      
+      <div class="w-[90vw] lg:w-[80vw] xl:w-[60vw] flex flex-col justify-center items-center text-center text-3xl">
+        <h1 class="font-medium text-zinc-600 mb-[50px] text-3xl" >My Projects</h1>
+        
+        <p class="w-[90vw] text-zinc-600 text-lg mb-[50px]">Here are some of my projects I've done using different technologies. <span class="text-cyan-500 text-lg">Hover </span>to learn more. <span class="text-cyan-500 text-lg">Click </span>to navigate to project.</p>
+        
+        <div class="flex justify-center items-center flex-wrap xl:w-[50vw]">
+          <!-- Project1 -->
+          <a href="https://abadjazzrell.github.io/webportfolio/" target="_blank"> 
+         
+          <div class="h-[200px] w-[300px] bg-white flex justify-center items-center rounded-md text-sm overflow-hidden scale-90 shadow-lg "> <!-- Image here -->
+            
+            <div class="group h-[180px] w-[280px] border-2 border-zinc-300 rounded-md hover:border-cyan-400 flex flex-col justify-center items-center p-5 duration-[500ms]">
+              
+              <div class="flex flex-col justify-start items-center translate-y-[30px] group-hover:-translate-y-[10px] duration-[500ms]">
+                
+                <h1 class="text-zinc-500  text-3xl font-bold duration-[500ms]">My First Portfolio</h1>
+                
+                <p class="text-cyan-500 group-hover:text-cyan-400 uppercase duration-[500ms]">My Personal Website</p>
+              </div>
+              
+              <div class="flex flex-col justify-start items-center translate-y-[200px]  group-hover:translate-y-[00px] duration-[500ms]"><h2 class="text-zinc-500  text-xl font-medium duration-[500ms]">Tech Used</h2><p class="text-zinc-700 group-hover:text-cyan-400  duration-[500ms]">HTML | CSS | BOOTSTRAP | GITHUB</p>
+              
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Project2 -->
+        <a href="https://xiphos-yelp-camp.onrender.com/" target="_blank">
+          
+          <div class="h-[200px] w-[300px] bg-white flex justify-center items-center rounded-md text-sm overflow-hidden scale-90 shadow-lg">
+            
+            <div class="group h-[180px] w-[280px] border-2 border-zinc-300 rounded-md hover:border-cyan-400 flex flex-col justify-center items-center p-5 duration-[500ms] "> <!-- Image here -->
+              
+              <div class="flex flex-col justify-start items-center translate-y-[30px] group-hover:-translate-y-[10px] duration-[500ms]">
+                
+                <h1 class="text-zinc-500  text-3xl font-bold duration-[500ms]">YelpCamp</h1>
+                
+                <p class="text-cyan-500 group-hover:text-cyan-400 uppercase duration-[500ms]">Website For Camp Sites</p>
+
+              </div>
+
+              <div class="flex flex-col justify-start items-center translate-y-[200px]  group-hover:translate-y-[00px] duration-[500ms]">
+                
+                <h2 class="text-zinc-500  text-xl font-medium duration-[500ms]">Tech Used</h2>
+                
+                <p class="text-zinc-700 group-hover:text-cyan-400  duration-[500ms]">JavaScript - Bootstrap - Express - Mongoose - Mongo DB</p>
+              
+              </div>
+            </div>
+          </div>
+        </a>
+        <!-- Project3 -->
+        <a href="https://thedojosite-12317.web.app/login" target="_blank">
+          
+          <div class="h-[200px] w-[300px] bg-white flex justify-center items-center rounded-md text-sm overflow-hidden scale-90 shadow-lg">
+            
+            <div class="group h-[180px] w-[280px] border-2 border-zinc-300 rounded-md hover:border-cyan-400 flex flex-col justify-center items-center p-5 duration-[500ms]"> <!-- Image here -->
+              
+              <div class="flex flex-col justify-start items-center translate-y-[30px] group-hover:-translate-y-[10px] duration-[500ms]">
+                
+                <h1 class="text-zinc-500  text-3xl font-bold duration-[500ms]">The Dojo</h1>
+                
+                <p class="text-cyan-500 group-hover:text-cyan-400 uppercase duration-[500ms]">Project Management App</p>
+              </div>
+              
+              <div class="flex flex-col justify-start items-center translate-y-[200px]  group-hover:translate-y-[00px] duration-[500ms]">
+                
+                <h2 class="text-zinc-500  text-xl font-medium duration-[500ms]">Tech Used</h2>
+                
+                <p class="text-zinc-700 group-hover:text-cyan-400  duration-[500ms]">React JS - React Router - Firebase</p>
+              
+              </div>
+            </div>
+          </div>
+        </a>
+        <!-- Project4 -->
+        <a href="https://mymoney-c5fdd.web.app/login/" target="_blank">
+          
+          <div class="h-[200px] w-[300px] bg-white flex justify-center items-center rounded-md text-sm overflow-hidden scale-90 shadow-lg">
+            
+            <div class="group h-[180px] w-[280px] border-2 border-zinc-300 rounded-md hover:border-cyan-400 flex flex-col justify-center items-center p-5 duration-[500ms]"> <!-- Image here -->
+              
+              <div class="flex flex-col justify-start items-center translate-y-[30px] group-hover:-translate-y-[10px] duration-[500ms]">
+                
+                <h1 class="text-zinc-500  text-3xl font-bold duration-[500ms]">myMoney</h1>
+                
+                <p class="text-cyan-500 group-hover:text-cyan-400 uppercase duration-[500ms]">Finance Management App</p>
+              
+              </div>
+              
+              <div class="flex flex-col justify-start items-center translate-y-[200px]  group-hover:translate-y-[00px] duration-[500ms]">
+                
+                <h2 class="text-zinc-500  text-xl font-medium duration-[500ms]">Tech Used</h2>
+                
+                <p class="text-zinc-700 group-hover:text-cyan-400  duration-[500ms]">React JS - React Router - Firebase</p>
+              
+              </div>
+            
+            </div>
+          
+          </div>
+        
+        </a>
+        <!-- Project5 -->
+        <a href="https://cookify-site.web.app/" target="_blank">
+          
+          <div class="h-[200px] w-[300px] bg-white flex justify-center items-center rounded-md text-sm overflow-hidden scale-90 shadow-lg">
+            
+            <div class="group h-[180px] w-[280px] border-2 border-zinc-300 rounded-md hover:border-cyan-400 flex flex-col justify-center items-center p-5 duration-[500ms]"> <!-- Image here -->
+              
+              <div class="flex flex-col justify-start items-center translate-y-[30px] group-hover:-translate-y-[10px] duration-[500ms]">
+                
+                <h1 class="text-zinc-500  text-3xl font-bold duration-[500ms]">Cookify</h1>
+                
+                <p class="text-cyan-500 group-hover:text-cyan-400 uppercase duration-[500ms]">Cooking Ingredients App</p>
+              
+              </div>
+              
+              <div class="flex flex-col justify-start items-center translate-y-[200px]  group-hover:translate-y-[00px] duration-[500ms]">
+                
+                <h2 class="text-zinc-500  text-xl font-medium duration-[500ms]">Tech Used</h2>
+                
+                <p class="text-zinc-700 group-hover:text-cyan-400  duration-[500ms]">React JS - React Router - Firebase</p>
+              
+              </div>
+            
+            </div>
+          
+          </div>
+        
+        </a>
+        <!-- Project6 -->
+        <a href="https://memory-game-4b07a.web.app/" target="_blank">
+          
+          <div class="h-[200px] w-[300px] bg-white flex justify-center items-center rounded-md text-sm overflow-hidden scale-90 shadow-lg">
+            
+            <div class="group h-[180px] w-[280px] border-2 border-zinc-300 rounded-md hover:border-cyan-400 flex flex-col justify-center items-center p-5 duration-[500ms]"> <!-- Image here -->
+              
+              <div class="flex flex-col justify-start items-center translate-y-[30px] group-hover:-translate-y-[10px] duration-[500ms]">
+                
+                <h1 class="text-zinc-500  text-3xl font-bold duration-[500ms]">Magic Match</h1
+                  
+                  ><p class="text-cyan-500 group-hover:text-cyan-400 uppercase duration-[500ms]">Card Matching Game</p>
+                
+                </div>
+                
+                <div class="flex flex-col justify-start items-center translate-y-[200px]  group-hover:translate-y-[00px] duration-[500ms]">
+                  
+                  <h2 class="text-zinc-500  text-xl font-medium duration-[500ms]">Tech Used</h2>
+                  
+                  <p class="text-zinc-700 group-hover:text-cyan-400  duration-[500ms]">React JS - React Router - Firebase</p>
+                </div>
+
+              </div>
+
+
+            </div>
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+    
+    
+    <section class="mb-32 text-center text-gray-800 mt-20" id="contact" >
+      <div class="max-w-[700px] mx-auto px-3 lg:px-6">
+        <h2 class="text-3xl font-bold mb-12">Contact us</h2>
+        <form action="https://formsubmit.co/abadjazzrell@gmail.com" method="POST" target="_blank">
+          <div class="form-group mb-6">
+            <input name="name" type="text" class="form-control block
+              w-full
+              px-3
+              py-1.5
+              text-base
+              font-normal
+              text-gray-700
+              bg-white bg-clip-padding
+              border border-solid border-gray-300
+              rounded
+              transition
+              ease-in-out
+              m-0
+              focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput7"
+              placeholder="Name">
+          </div>
+          <div class="form-group mb-6">
+            <input type="email" name ="email" class="form-control block
+              w-full
+              px-3
+              py-1.5
+              text-base
+              font-normal
+              text-gray-700
+              bg-white bg-clip-padding
+              border border-solid border-gray-300
+              rounded
+              transition
+              ease-in-out
+              m-0
+              focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput8"
+              placeholder="Email address">
+          </div>
+          <div class="form-group mb-6">
+            <textarea name ="message" class="
+              form-control
+              block
+              w-full
+              px-3
+              py-1.5
+              text-base
+              font-normal
+              text-gray-700
+              bg-white bg-clip-padding
+              border border-solid border-gray-300
+              rounded
+              transition
+              ease-in-out
+              m-0
+              focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+            " id="exampleFormControlTextarea13" rows="3" placeholder="Message"></textarea>
+          </div>
+         
+          <button type="submit" class="
+            w-full
+            px-6
+            py-2.5
+            bg-blue-600
+            text-white
+            font-medium
+            text-xs
+            leading-tight
+            uppercase
+            rounded
+            shadow-md
+            hover:bg-blue-700 hover:shadow-lg
+            focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0
+            active:bg-blue-800 active:shadow-lg
+            transition
+            duration-150
+            ease-in-out">Send</button>
+        </form>
+      </div>
+    </section>
+
+
+
+    <footer class="p-4 bg-black rounded-lg shadow md:px-6 md:py-8 dark:bg-gray-900">
+      <div class="sm:flex sm:items-center sm:justify-between">
+        
+              <img src="./image/jazzrell-logo.png" class="h-20 mr-3" alt="Jazz Logo" />
+             
+          
+          <ul class="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
+              <li>
+                  <a href="https://www.linkedin.com/in/jazzrellfrian-abad/" target="_blank" class="mr-4 hover:underline md:mr-6 "><i class="text-blue-500 fa fa-linkedin-square" style="font-size:36px"></i></a>
+              </li>
+              <li>
+                  <a href="https://www.facebook.com/abadjazzrell" target="_blank" class="mr-4 hover:underline md:mr-6"><i class="text-blue-500 fa fa-facebook" style="font-size:36px"></i></a>
+              </li>
+              <li>
+                  <a href="https://www.instagram.com/jazzrell.abad/" target="_blank" class="mr-4 hover:underline md:mr-6 "><i class="text-blue-500 fa fa-instagram" style="font-size:36px"></i></a>
+              </li>
+              <li>
+                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fcall.whatsapp.com%2Fvideo%2Fn7KfK90vPVkaHZAHmknU8L%3Ffbclid%3DIwAR2wdF292CMxIP5REspW6RTgHG3Go4Os0_htCKjhhGl_HF96dAuvTFdi4Wc&h=AT1wUOasFu2ixkYw2WN7gnT8pV837dFh7ZGbwywKNjVezhfqdMn7E6KzrDp4n-zKELZ_9uoy6wQSieWkZVjiG_cr9r_XRBBAZQrPopyxHxp4AP-o70_EYtUfIVQFF-uR2yrseQ" target="_blank" class="mr-4 hover:underline md:mr-6 "><i class="text-blue-500 fa fa-whatsapp" style="font-size:36px"></i></a>
+              </li>
+          </ul>
+      </div>
+      <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Jazzrell Frian P. Abad</a>. All Rights Reserved.
+      </span>
+  </footer>
+  
+
+
+
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+  </html>
