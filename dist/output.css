@@ -1240,13 +1240,6 @@ body{
     }
   }  */
 
-@media only screen and (max-width: 765px) {
-  .myCustomImage {
-    background-size: 100%;
-    background-color: black;
-  }
-}
-
 .hover\:border-cyan-400:hover {
   --tw-border-opacity: 1;
   border-color: rgb(34 211 238 / var(--tw-border-opacity));
@@ -1522,3 +1515,5 @@ body{
     width: 800px;
   }
 }
+
+ 
