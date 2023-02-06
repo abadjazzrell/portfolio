@@ -1221,7 +1221,8 @@ body{
 .myCustomImage {
   background-image: url('../src/image/background.jpg');
   background-repeat : no-repeat;
-  background-size: 100% 150%;
+  background-size: cover;
+  background-position: center;
 }
 
 .myCustomImage2 {
@@ -1232,9 +1233,16 @@ body{
   display: none;
 }
 
-@media (max-width: 575px) {
+/* @media (max-width: 575px) {
+    .myCustomImage {
+      background-size: 50%;
+      background-color: black;
+    }
+  }  */
+
+@media only screen and (max-width: 765px) {
   .myCustomImage {
-    background-size: 50%;
+    background-size: 100%;
     background-color: black;
   }
 }
@@ -1513,4 +1521,4 @@ body{
   .\32xl\:w-\[800px\] {
     width: 800px;
   }
-} 
+}
