@@ -74,7 +74,6 @@ body{
 
   .myCustomImage2 {
     background-image: url('../src/image/background2.jpg');
-   
     
   }
 
@@ -84,9 +83,8 @@ body{
 
   } 
 
-  /* @media (max-width: 575px) {
+  @media (max-width: 575px) {
     .myCustomImage {
-      background-size: 80% 50%;
-      background-color: black;
+      background-size: 80vh
     }
-  } */
+  } 
