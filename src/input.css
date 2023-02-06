@@ -87,8 +87,8 @@ body{
  
   @media only screen and (max-width: 575px) {
     .myCustomImage {
-      height: 100vh; /* set the height to 100% of the viewport height */
-      background-size: cover;
+      height: 400px;
+      background-size: contain;
       background-position: top; /* change the position of the image */
     }
   }
