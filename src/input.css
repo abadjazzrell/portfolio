@@ -69,9 +69,6 @@ body{
     background-image: url('../src/image/background.jpg');
     background-repeat : no-repeat;
     background-size: 100% 150%;
-    background-position: center;
-    background-attachment: fixed;
-    
   }
 
 
@@ -87,9 +84,9 @@ body{
 
   } 
 
-  @media (max-width: 575px) {
+  /* @media (max-width: 575px) {
     .myCustomImage {
-      background-size: 100% 70%;
+      background-size: 80% 50%;
       background-color: black;
     }
-  }
+  } */

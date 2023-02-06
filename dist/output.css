@@ -629,10 +629,6 @@ video {
   display: none;
 }
 
-.h-\[100vh\] {
-  height: 100vh;
-}
-
 .h-screen {
   height: 100vh;
 }
@@ -888,6 +884,10 @@ video {
 
 .bg-center {
   background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .p-5 {
@@ -1222,8 +1222,6 @@ body{
   background-image: url('../src/image/background.jpg');
   background-repeat : no-repeat;
   background-size: 100% 150%;
-  background-position: center;
-  background-attachment: fixed;
 }
 
 .myCustomImage2 {
@@ -1234,12 +1232,12 @@ body{
   display: none;
 }
 
-@media (max-width: 575px) {
-  .myCustomImage {
-    background-size: 100% 70%;
-    background-color: black;
-  }
-}
+/* @media (max-width: 575px) {
+    .myCustomImage {
+      background-size: 80% 50%;
+      background-color: black;
+    }
+  } */
 
 .hover\:border-cyan-400:hover {
   --tw-border-opacity: 1;
