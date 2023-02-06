@@ -89,7 +89,7 @@ body{
     .myCustomImage {
       height: 450px;
       background-size: contain;
-      background-position: center; /* change the position of the image */
+      background-position: 0 50px; /* change the position of the image */
     }
   }
  
