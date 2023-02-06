@@ -1221,7 +1221,7 @@ body{
 .myCustomImage {
   background-image: url('../src/image/background.jpg');
   background-repeat : no-repeat;
-  background-size: cover;
+  background-size: auto 150%;
   background-position: center;
 }
 
@@ -1232,6 +1232,12 @@ body{
 #fullAbout {
   display: none;
 }
+
+/* @media only screen and (max-width: 575px) {
+    .myCustomImage {
+      background-size: cover;
+    }
+  } */
 
 .hover\:border-cyan-400:hover {
   --tw-border-opacity: 1;
@@ -1507,8 +1513,5 @@ body{
   .\32xl\:w-\[800px\] {
     width: 800px;
   }
-} 
-
- 
-
+}
  

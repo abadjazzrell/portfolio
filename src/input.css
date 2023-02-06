@@ -68,7 +68,7 @@ body{
 .myCustomImage {
     background-image: url('../src/image/background.jpg');
     background-repeat : no-repeat;
-    background-size: cover;
+    background-size: auto 150%;
     background-position: center;
   }
 
@@ -78,12 +78,14 @@ body{
     
   }
 
-
    #fullAbout {
     display: none;
-
   } 
 
  
-
+  /* @media only screen and (max-width: 575px) {
+    .myCustomImage {
+      background-size: cover;
+    }
+  } */
  
