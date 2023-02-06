@@ -87,9 +87,9 @@ body{
  
   @media only screen and (max-width: 575px) {
     .myCustomImage {
-      height: 400px;
+      height: 450px;
       background-size: contain;
-      background-position: top; /* change the position of the image */
+      background-position: center; /* change the position of the image */
     }
   }
  
