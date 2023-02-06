@@ -83,8 +83,8 @@ body{
 
   } 
 
-  @media (max-width: 575px) {
+  /* @media (max-width: 575px) {
     .myCustomImage {
       background-size: 80vh
     }
-  } 
+  }  */

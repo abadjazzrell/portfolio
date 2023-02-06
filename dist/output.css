@@ -641,6 +641,10 @@ video {
   height: 1.5rem;
 }
 
+.h-\[200px\] {
+  height: 200px;
+}
+
 .h-auto {
   height: auto;
 }
@@ -651,10 +655,6 @@ video {
 
 .h-\[40vh\] {
   height: 40vh;
-}
-
-.h-\[200px\] {
-  height: 200px;
 }
 
 .h-\[180px\] {
@@ -1232,11 +1232,11 @@ body{
   display: none;
 }
 
-@media (max-width: 575px) {
-  .myCustomImage {
-    background-size: 80vh
-  }
-}
+/* @media (max-width: 575px) {
+    .myCustomImage {
+      background-size: 80vh
+    }
+  }  */
 
 .hover\:border-cyan-400:hover {
   --tw-border-opacity: 1;
@@ -1512,4 +1512,4 @@ body{
   .\32xl\:w-\[800px\] {
     width: 800px;
   }
-} 
+}
