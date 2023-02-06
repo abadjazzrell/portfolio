@@ -66,10 +66,13 @@ body{
 }
 
 .myCustomImage {
-    background-image: url('../src/image/background.jpg');
-    background-repeat : no-repeat;
-    background-position: center;
-  }
+  width: 100%;
+  height: 100vh; /* adjust the height as needed */
+  background-image: url('../src/image/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
 
   .myCustomImage2 {
@@ -82,10 +85,11 @@ body{
   } 
 
  
-  /* @media only screen and (max-width: 575px) {
+  @media only screen and (max-width: 575px) {
     .myCustomImage {
+      height: 100vh; /* set the height to 100% of the viewport height */
       background-size: cover;
-      width: 100%;
+      background-position: top; /* change the position of the image */
     }
-  } */
+  }
  

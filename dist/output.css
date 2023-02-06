@@ -870,12 +870,12 @@ video {
   background-color: rgb(37 99 235 / var(--tw-bg-opacity));
 }
 
-.bg-cover {
-  background-size: cover;
-}
-
 .bg-contain {
   background-size: contain;
+}
+
+.bg-cover {
+  background-size: cover;
 }
 
 .bg-fixed {
@@ -1223,8 +1223,12 @@ body{
 }
 
 .myCustomImage {
+  width: 100%;
+  height: 100vh;
+  /* adjust the height as needed */
   background-image: url('../src/image/background.jpg');
-  background-repeat : no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
 }
 
@@ -1236,12 +1240,15 @@ body{
   display: none;
 }
 
-/* @media only screen and (max-width: 575px) {
-    .myCustomImage {
-      background-size: cover;
-      width: 100%;
-    }
-  } */
+@media only screen and (max-width: 575px) {
+  .myCustomImage {
+    height: 100vh;
+    /* set the height to 100% of the viewport height */
+    background-size: cover;
+    background-position: top;
+    /* change the position of the image */
+  }
+}
 
 .hover\:border-cyan-400:hover {
   --tw-border-opacity: 1;
@@ -1446,10 +1453,6 @@ body{
     --tw-space-x-reverse: 0;
     margin-right: calc(1.75rem * var(--tw-space-x-reverse));
     margin-left: calc(1.75rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .md\:bg-cover {
-    background-size: cover;
   }
 
   .md\:bg-fixed {
